@@ -1,0 +1,20 @@
+A1: Tris and I  ([3.005]Iconic1_TrainNeutral,RH[0.93])  went to a Bonfire Night celebration yesterday.
+
+B1: It was very  ([6.560]Shrug_ExemplarSet_NeffDec10,2H[0.57]/SweepSide2_ExemplarSet_NeffDec10,LH[0.51])   nice, even if it entirely failed to have an actual bonfire, which I thought was supposed to be the point.
+
+A2: Yeah,  ([12.944]Shrug_ExemplarSet_NeffDec10,2H[0.57])  nearly everyone else had their Guy Fawkes bonfires over the weekend and on a side note, ([18.449]RaisedIndexfinger_ExemplarSet_NeffDec10,RH[0.40])  this is really beginning to piss me off. If no one ever celebrates on the actual  ([23.172]Cup5_AntonyTired2,2H[0.28])  holiday, why do you even have it?
+
+B2: I know--why not  ([26.408]Calm_TrainNeutral,LH[0.60]/ Cup_Vert_ExemplarSet_NeffDec10,2H[0.54])  just change it to 'the Saturday before the 5 of November or Chinese New Yea
+
+A3: so anyway we had to  ([32.078]Calm_TrainNeutral,LH[0.60])  take the tube way up to north London to a little former-town-now-suburb called Roundwood Park. They had a little carnival, with spinning ([40.453]DrawHouse_ExemplarSet_NeffDec10,2H[0.95]/FlingDown2_ShakesTired2_FingerSkel,2H[0.54])   teacup rides and a tiny rides and fair food but no funnel cake and glowing tat for sale
+
+B3: And  ([47.280]DrawHouse_ExemplarSet_NeffDec10,2H[0.95])  there were fireworks!
+
+A4: Actually, a  ([49.245]Progressive_ShakesTired2_FingerSkel,2H[0.97])  huge amount of fireworks given the size of the place, so I was well ([53.412]Erruptive_Vert_ExemplarSet_NeffDec10,2H[0.29])  pleased.
+
+B4: I really do  ([54.526]Cup3_AntonyTired,2H[0.10])  love fireworks-- there's something so satisfying about the booms and the sizzles and the way it kind of looks like the stars are falling ([62.039]Erruptive_Vert_ExemplarSet_NeffDec10,2H[0.29]/Erruptive1_ShakesTired2_FingerSkel,2H[0.43])  down on you.
+
+A5: We ([63.057]Cup_Down_ExemplarSet_NeffDec10,2H[0.11]/Cup12_ShakesTired2_FingerSkel,2H[0.50])  walked through the dark park and smelled the fallen leaves and ([66.165]BackHandBeats_Spread1_ExemplarSet_NeffDec1,2H[0.49])  got cold noses and wished for hot apple cider and went on a  ([71.170]PointingAbstract2_AirplaneAngry,LH[0.57])  charming ghost train ride and generally had a great time, so I can't complain.
+
+B5: But next time we want ([76.457]Cup_Down_ExemplarSet_NeffDec10,2H[0.11])  burning effigies!
+

@@ -1,0 +1,86 @@
+#find all the gesture in the line given and store them in gesturechunks
+				gesturechunks=re.findall('\(\[.*?\]\)',line)
+
+				for gesturechunk in gesturechunks:
+					gestureChunkNum+=1
+					gestChunksLabeled=[]
+
+					#grab the actual gestures from each gesture chunk
+					#    and store them in a list called uncleanedGesture[]
+					uncleanedGesture = re.findall('\].+?\[', gesturechunk)
+					print txtFileName
+					print "gesturechunk"+str(gestureChunkNum)+"= "+str(gesturechunk)
+					#and then if there were actually gestures in the line
+					if uncleanedGesture:
+						#then count them so they can be tagged later
+						gestureNum=0
+						#then for each gesture in this list called uncleanedGesture[]
+						for gesture in uncleanedGesture:
+							gestureNum+=1
+							#take out the brackets [] so we just get the gesture name
+							#    and the gesture hands eg: 2H, RH, LH separated by a comma
+							gesture=gesture[1:-1]
+							print "gesture before="+gesture
+							#then turn the gesture string into a list, in which
+							#the first element is just the name of the gesture itself
+							#    for example:['BackHandBeats_Spread1_ExemplarSet_NeffDec1,', '2H', '']
+							gestureWhands=re.split('([2|R|L]H)', gesture)
+							print gestureWhands
+							#then also store the hands information as hands...
+							#    for example: hands='2H'
+							hands=gestureWhands[1]
+							#strip out any commas or slashes from the gesture's string name...
+							gesture=gestureWhands[0].strip(',|/')
+							print "gesture after="+gesture
+							#and finally append the gesture name to gestureList[], and assign its chunk number
+							gWlabels=[gestureNum, str(gesture), hands]
+							print
+							print
+							print gWlabels
+							print
+							print
+							gestChunksLabeled.append(gWlabels)
+							#append elements the gestureList
+							#each element of which is a gesture along with its corresponding tags
+							gestureList.append(gestChunksLabeled)
+							print str(gestureList)
+
+					#then grab the timestamps from the gesture chunk
+					timestamps=re.findall('\[.+?\]', gesturechunk)
+					#by trying to store the start time as start
+					#    and the duration time as duration
+					try:
+						start=timestamps[0][1:-1]
+						duration=timestamps[1][1:-1]
+					#and then if that doesn't work, print out the gesture chunk in which there
+					#    seems to be a problem.
+					except:
+						print "check line #"+speaker+turnNum+"in "+txtFileName+"...  looks like the string: \""+gesturechunk+"\" contains an error."
+					#if the length of the timestamps list is 3 (which means there is an adapted
+					#    and non adapted version of this particular gesture chunk...)
+					if len(timestamps)==3:
+					#then store the replacement nonadapting gesture timestamp
+					#    in a second spot called "secondDuration"
+						secondDuration=timestamps[2]
+					#otherwise just give secondDuration a None value
+					else: secondDuration=None
+
+					print "gesture final = "+gesture
+					print "speaker " + speaker
+					print txtFileName
+					print ("\n\n"+start+" "+str("{0:.2f}".format(round(float(start)+float(duration),2)))+" "+gesture+" "+hands)
+					print
+					if secondDuration: print secondDuration
+					print
+					print
+
+					#then for each timestamp in the timestamps contained in the gesture chunk
+					for timestamp in timestamps:
+						#print "presplit timestamp="+str(timestamp)
+						times = re.split('\[|\]', timestamp)
+						for x in times:
+							if x: rawTimes.append([lineNumber, gestureChunkNum, x])
+						print "rawTimes Length="+str(len(rawTimes))
+					#write to the files once for each gesture chunk
+					writeToPhaseFile(speaker, txtFileName, "\n"+str(rawTimes)+gesturechunk+"\n")
+					writeToPhraseFile(speaker, txtFileName, ("\n\n"+start+" "+str("{0:.2f}".format(round(float(start)+float(duration),2)))+" "+gesture+" "+hands))

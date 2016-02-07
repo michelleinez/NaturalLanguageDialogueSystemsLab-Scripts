@@ -1,0 +1,57 @@
+#correct order: prep, stroke, hold, retract.
+
+#prep: to move from default gesture to begin position
+#stroke: perform the gesture
+#hold: stay at gesture end position
+#retract: move back tp default gesture position
+
+#must have stroke
+
+#A1
+#24 Abandoned_TrainTired
+3.96 3.98 prep
+3.98 4.28 stroke
+4.28 4.48 retract
+
+#25 ShortRegressive_ExemplarSet_NeffDec10
+7.52 7.54 prep
+7.54 7.88 stroke
+7.88 8.08 retract
+
+#26 Umbrella_ExemplarSet_NeffDec10
+14.72 14.74 prep
+14.74 15.24 stroke
+15.24 15.44 retract
+
+#A2
+#27 NervousTwitch1_ExemplarSet_NeffDec10
+33.89 33.91 prep
+33.91 34.18 stroke
+34.18 34.38 retract
+
+#28 Erruptive1_ShakesTired2_FingerSkel
+41.34 41.36 prep
+41.36 41.79 stroke
+41.79 41.99 retract
+
+#A3
+#29 Cup3_AntonyTired
+57.3 57.32 prep
+57.32 57.42 stroke
+57.42 57.62 retract
+
+#30 Box_ExemplarSet_NeffDec10
+62.4 62.42 prep
+62.42 63.37 stroke
+63.37 63.57 retract
+
+#A4
+#31 Cup_Vert_ExemplarSet_NeffDec10
+80.32 80.34 prep
+80.34 80.88 stroke
+80.88 81.08 retract
+
+#32 BackHandBeats_Spread1_ExemplarSet_NeffDec1
+81.75 81.77 prep
+81.77 82.26 stroke
+82.26 82.46 retract

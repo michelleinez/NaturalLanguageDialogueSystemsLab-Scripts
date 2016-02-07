@@ -1,0 +1,73 @@
+#correct order: prep, stroke, hold, retract.
+
+#prep: to move from default gesture to begin position
+#stroke: perform the gesture
+#hold: stay at gesture end position
+#retract: move back tp default gesture position
+
+#must have stroke
+
+#A1
+#1 RaisedIndexfinger_ExemplarSet_NeffDec10
+2.47 2.49 prep
+2.49 2.89 stroke
+2.89 3.09 retract
+
+#2 NervousTwitch1_ExemplarSet_NeffDec10
+4.77 4.79 prep
+4.79 5.06 stroke
+5.06 5.26 retract
+
+#A2
+#3 Erruptive_Vert_ExemplarSet_NeffDec10
+18.57 18.59 prep
+18.59 18.88 stroke
+18.88 19.08 retract
+
+#4 Shrug_ExemplarSet_NeffDec10
+20.62 20.64 prep
+20.64 21.21 stroke
+21.21 21.41 retract
+
+#5 Calm_High_ExemplarSet_NeffDec10
+26.11 26.13 prep
+26.13 26.67 stroke
+26.67 26.87 retract
+
+#A3
+#6 ShortRegressive_ExemplarSet_NeffDec10
+33.8 33.82 prep
+33.82 34.16 stroke
+34.16 34.36 retract
+
+#7 Wave1_TrainTired
+37.12 37.14 prep
+37.14 37.44 stroke
+37.44 37.64 retract
+
+#A4
+#8 CircleWave_ExemplarSet_NeffDec10
+50.93 50.95 prep
+50.95 51.29 stroke
+51.29 51.49 retract
+
+#9 Calm_High_ExemplarSet_NeffDec10
+54.19 54.21 prep
+54.21 54.75 stroke
+54.75 54.95 retract
+
+#A5
+#10 PointingAbstract1_ShakesTired2_FingerSkel
+68.74 68.76 prep
+68.76 69.09 stroke
+69.09 69.29 retract
+
+#11 Shrug_ExemplarSet_NeffDec10
+71.63 71.65 prep
+71.65 72.22 stroke
+72.22 72.42 retract
+
+#12 Bad_PointingPerson_ExemplarSet_NeffDec10
+74.06 74.08 prep
+74.08 74.65 stroke
+74.65 74.85 retract

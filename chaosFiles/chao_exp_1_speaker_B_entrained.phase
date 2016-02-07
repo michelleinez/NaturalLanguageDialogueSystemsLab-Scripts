@@ -1,0 +1,55 @@
+#correct order: prep, stroke, hold, retract.
+
+#prep: to move from default gesture to begin position
+#stroke: perform the gesture
+#hold: stay at gesture end position
+#retract: move back tp default gesture position
+
+#must have stroke
+
+#B1
+#0 BackHandBeats_Spread
+10.53 10.73 prep
+10.73 11.16 stroke
+11.16 11.36 retract
+
+#B2
+#1 RaisedIndexfinger
+21.65 21.85 prep
+21.85 23.63 stroke
+23.63 23.83 retract
+
+#2 WeighOptions
+23.83 24.03 prep
+24.03 25.42 stroke
+25.42 25.62 retract
+
+#B4
+#3 Away
+48.44 48.64 prep
+48.64 49.33 stroke
+49.33 49.53 retract
+
+#4 BadShovel
+51.95 52.05 prep
+52.05 52.85 stroke
+52.85 53.05 retract
+
+#B5
+#5 Reject
+59.88 60.08 prep
+60.08 61.28 stroke
+61.28 61.48 retract
+
+#B6
+#6 ShortProgressive
+66.72 67.00 prep
+67.00 68.22 stroke
+68.22 68.52 retract
+
+#B7
+#7 Shrug
+72.43 72.63 prep
+72.63 73.78 stroke
+73.78 73.98 retract
+
